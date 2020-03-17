@@ -1,11 +1,6 @@
 function exibeHabilidades(usuarios) {
   for (usuario of usuarios) {
-    console.log(
-      "O " +
-        usuario.nome +
-        " possui as habilidades: " +
-        usuario.habilidades.join(", ")
-    );
+    console.log(`O ${usuario.nome} possui habilidades ${usuario.habilidades.join(", ")}`);
   }
 }
 
